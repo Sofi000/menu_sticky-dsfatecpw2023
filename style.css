@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-size: 28px;
+    background-color: #011529;
+    color: #f0e0bd;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    overflow:hidden;
+    background-color: #00080f
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f0e0bd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color:#021c33;
+    color: white;
+}
+
+#navbar a.active {
+    background-color: #c49337;
+    color: white;
+}
+
+#content {
+    
+    padding: 50px;
+    display:block;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + #content {
+    padding-top: 60px;
+}
